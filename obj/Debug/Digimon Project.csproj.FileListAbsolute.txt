@@ -1,0 +1,152 @@
+c:/users/11500402/documents/visual studio 2015/Projects/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe.config
+c:/users/11500402/documents/visual studio 2015/Projects/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csprojResolveAssemblyReference.cache
+C:/Users/11500402/Documents/Visual Studio 2015/Projects/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/11500402/Documents/Visual Studio 2015/Projects/Digimon Project/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/11500402/Documents/Visual Studio 2015/Projects/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/11500402/Documents/Visual Studio 2015/Projects/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/CodeDragon/Desktop/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/CodeDragon/Desktop/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/CodeDragon/Desktop/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/CodeDragon/Desktop/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/CodeDragon/Desktop/Digimon Project/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/CodeDragon/Desktop/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csprojResolveAssemblyReference.cache
+C:/Users/11500402/Dropbox/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/11500402/Dropbox/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/11500402/Dropbox/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/11500402/Dropbox/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/11500402/Dropbox/Digimon Project/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/CodeDragon/Dropbox/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/CodeDragon/Dropbox/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/CodeDragon/Dropbox/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/CodeDragon/Dropbox/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/CodeDragon/Dropbox/Digimon Project/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/11500402/Dropbox/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csprojResolveAssemblyReference.cache
+C:/Users/11500402/Dropbox/Digimon Project/Digimon Project/bin/Debug/MySql.Data.dll
+C:/Users/CodeDragon/Dropbox/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csprojResolveAssemblyReference.cache
+C:/Users/Kelb/Documents/Skype Recived Files/Digimon Project(3)/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/Kelb/Documents/Skype Recived Files/Digimon Project(3)/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/Kelb/Documents/Skype Recived Files/Digimon Project(3)/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/Kelb/Documents/Skype Recived Files/Digimon Project(3)/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/Kelb/Documents/Skype Recived Files/Digimon Project(3)/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/Kelb/Documents/Skype Recived Files/Digimon Project(3)/Digimon Project/obj/Debug/Digimon Project.csprojResolveAssemblyReference.cache
+C:/Users/Kelb/Desktop/Packetz/Project/Digimon Project(3)/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/Kelb/Desktop/Packetz/Project/Digimon Project(3)/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/Kelb/Desktop/Packetz/Project/Digimon Project(3)/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/Kelb/Desktop/Packetz/Project/Digimon Project(3)/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/Kelb/Desktop/Packetz/Project/Digimon Project(3)/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/Kelb/Desktop/Packetz/Project/Digimon Project(3)/Digimon Project/obj/Debug/Digimon Project.csprojResolveAssemblyReference.cache
+C:/Digimon RPG/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csprojAssemblyReference.cache
+C:/Digimon RPG/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+C:/Digimon RPG/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Digimon RPG/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/Luciano/Documents/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csprojAssemblyReference.cache
+C:/Users/Luciano/Documents/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+C:/Users/Luciano/Documents/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/Luciano/Documents/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/Luciano/Documents/TMO/Digimon ProjectC/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/Luciano/Documents/TMO/Digimon ProjectC/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/Luciano/Documents/TMO/Digimon ProjectC/Digimon Project/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/Luciano/Documents/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CopyComplete
+C:/Users/SuLu/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/SuLu/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/SuLu/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/SuLu/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csprojAssemblyReference.cache
+C:/Users/SuLu/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+C:/Users/SuLu/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CopyComplete
+C:/Users/SuLu/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/SuLu/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/CBE/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/CBE/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/CBE/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/CBE/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csprojAssemblyReference.cache
+C:/Users/CBE/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+C:/Users/CBE/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CopyComplete
+C:/Users/CBE/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/CBE/Documents/Luciano/TMO/Digimon ProjectC/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/Luciano/Documents/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/Luciano/Documents/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/Luciano/Documents/Digimon Project/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/Luciano/Documents/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csprojAssemblyReference.cache
+C:/Users/Luciano/Documents/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+C:/Users/Luciano/Documents/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CopyComplete
+C:/Users/Luciano/Documents/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/Luciano/Documents/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/bruni/Desktop/TAOC/Digimon Project2/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/bruni/Desktop/TAOC/Digimon Project2/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/bruni/Desktop/TAOC/Digimon Project2/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/bruni/Desktop/TAOC/Digimon Project2/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/bruni/Desktop/TAOC/Digimon Project2/Digimon Project/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/bruni/Desktop/TAOC/Digimon Project2/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+C:/Users/bruni/Desktop/TAOC/Digimon Project2/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CopyComplete
+C:/Users/bruni/Desktop/TAOC/Digimon Project2/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csprojAssemblyReference.cache
+C:/Users/danso/Desktop/Digimon Project2/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/danso/Desktop/Digimon Project2/Digimon Project/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/danso/Desktop/Digimon Project2/Digimon Project/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/danso/Desktop/Digimon Project2/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+C:/Users/danso/Desktop/Digimon Project2/Digimon Project/Digimon Project/obj/Debug/Digimon Project.csproj.CopyComplete
+C:/Users/danso/Desktop/Digimon Project2/Digimon Project/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/danso/Desktop/Digimon Project2/Digimon Project/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Users/bruni/OneDrive/Área de Trabalho/TAOC/Digimon Project 2021/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Users/bruni/OneDrive/Área de Trabalho/TAOC/Digimon Project 2021/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Users/bruni/OneDrive/Área de Trabalho/TAOC/Digimon Project 2021/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Users/bruni/OneDrive/Área de Trabalho/TAOC/Digimon Project 2021/Digimon Project/obj/Debug/Digimon Project.csprojAssemblyReference.cache
+C:/Users/bruni/OneDrive/Área de Trabalho/TAOC/Digimon Project 2021/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+C:/Users/bruni/OneDrive/Área de Trabalho/TAOC/Digimon Project 2021/Digimon Project/obj/Debug/Digimon Project.csproj.CopyComplete
+C:/Users/bruni/OneDrive/Área de Trabalho/TAOC/Digimon Project 2021/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Users/bruni/OneDrive/Área de Trabalho/TAOC/Digimon Project 2021/Digimon Project/obj/Debug/Digimon Project.pdb
+C:/Digimon_Project_202122/Digimon Project 202122/Digimon Project/bin/Debug/Digimon Project.exe.config
+C:/Digimon_Project_202122/Digimon Project 202122/Digimon Project/bin/Debug/Digimon Project.exe
+C:/Digimon_Project_202122/Digimon Project 202122/Digimon Project/bin/Debug/Digimon Project.pdb
+C:/Digimon_Project_202122/Digimon Project 202122/Digimon Project/obj/Debug/Digimon Project.csproj.AssemblyReference.cache
+C:/Digimon_Project_202122/Digimon Project 202122/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+C:/Digimon_Project_202122/Digimon Project 202122/Digimon Project/obj/Debug/Digimon Project.csproj.CopyComplete
+C:/Digimon_Project_202122/Digimon Project 202122/Digimon Project/obj/Debug/Digimon Project.exe
+C:/Digimon_Project_202122/Digimon Project 202122/Digimon Project/obj/Debug/Digimon Project.pdb
+D:/Jogos/DRO Server/Open/Digimon Project 202122/Digimon Project/bin/Debug/Digimon Project.exe.config
+D:/Jogos/DRO Server/Open/Digimon Project 202122/Digimon Project/bin/Debug/Digimon Project.exe
+D:/Jogos/DRO Server/Open/Digimon Project 202122/Digimon Project/bin/Debug/Digimon Project.pdb
+D:/Jogos/DRO Server/Open/Digimon Project 202122/Digimon Project/obj/Debug/Digimon Project.csproj.AssemblyReference.cache
+D:/Jogos/DRO Server/Open/Digimon Project 202122/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+D:/Jogos/DRO Server/Open/Digimon Project 202122/Digimon Project/obj/Debug/Digimon Project.csproj.CopyComplete
+D:/Jogos/DRO Server/Open/Digimon Project 202122/Digimon Project/obj/Debug/Digimon Project.exe
+D:/Jogos/DRO Server/Open/Digimon Project 202122/Digimon Project/obj/Debug/Digimon Project.pdb
+/Users/brunoegidioafonso/Desktop/GitHub/Digimon-Server/Digimon Project/bin/Debug/Digimon Project.exe.config
+/Users/brunoegidioafonso/Desktop/GitHub/Digimon-Server/Digimon Project/bin/Debug/Digimon Project.exe
+/Users/brunoegidioafonso/Desktop/GitHub/Digimon-Server/Digimon Project/bin/Debug/Digimon Project.pdb
+/Users/brunoegidioafonso/Desktop/GitHub/Digimon-Server/Digimon Project/obj/Debug/Digimon Project.csproj.AssemblyReference.cache
+/Users/brunoegidioafonso/Desktop/GitHub/Digimon-Server/Digimon Project/obj/Debug/Digimon Project.csproj.CoreCompileInputs.cache
+/Users/brunoegidioafonso/Desktop/GitHub/Digimon-Server/Digimon Project/obj/Debug/Digimon Project.csproj.CopyComplete
+/Users/brunoegidioafonso/Desktop/GitHub/Digimon-Server/Digimon Project/obj/Debug/Digimon Project.exe
+/Users/brunoegidioafonso/Desktop/GitHub/Digimon-Server/Digimon Project/obj/Debug/Digimon Project.pdb
+D:\GitHub\Projects\Digimon-Server\Digimon Project\bin\Debug\Digimon Project.exe.config
+D:\GitHub\Projects\Digimon-Server\Digimon Project\bin\Debug\Digimon Project.exe
+D:\GitHub\Projects\Digimon-Server\Digimon Project\bin\Debug\Digimon Project.pdb
+D:\GitHub\Projects\Digimon-Server\Digimon Project\obj\Debug\Digimon Project.csproj.CoreCompileInputs.cache
+D:\GitHub\Projects\Digimon-Server\Digimon Project\obj\Debug\Digimon Project.csproj.CopyComplete
+D:\GitHub\Projects\Digimon-Server\Digimon Project\obj\Debug\Digimon Project.exe
+D:\GitHub\Projects\Digimon-Server\Digimon Project\obj\Debug\Digimon Project.pdb
+D:\GitHub\Projects\Digimon-Server\Digimon Project\obj\Debug\Digimon Project.csproj.AssemblyReference.cache
+D:\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\bin\Debug\Digimon Project.exe.config
+D:\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\bin\Debug\Digimon Project.exe
+D:\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\bin\Debug\Digimon Project.pdb
+D:\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\obj\Debug\Digimon Project.csproj.AssemblyReference.cache
+D:\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\obj\Debug\Digimon Project.csproj.CoreCompileInputs.cache
+D:\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\obj\Debug\Digimon Project.csproj.CopyComplete
+D:\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\obj\Debug\Digimon Project.exe
+D:\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\obj\Debug\Digimon Project.pdb
+D:\DISK 2\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\bin\Debug\Digimon Project.exe.config
+D:\DISK 2\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\bin\Debug\Digimon Project.exe
+D:\DISK 2\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\bin\Debug\Digimon Project.pdb
+D:\DISK 2\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\obj\Debug\Digimon Project.csproj.AssemblyReference.cache
+D:\DISK 2\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\obj\Debug\Digimon Project.csproj.CoreCompileInputs.cache
+D:\DISK 2\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\obj\Debug\Digimon Project.csproj.CopyComplete
+D:\DISK 2\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\obj\Debug\Digimon Project.exe
+D:\DISK 2\Digimon RPG\Digimon-Server\Digimon-ServerGM\Digimon Project\obj\Debug\Digimon Project.pdb
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\bin\Debug\Digimon Project.exe.config
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\bin\Debug\Digimon Project.exe
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\bin\Debug\Digimon Project.pdb
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\obj\Debug\Digimon Project.csprojAssemblyReference.cache
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\obj\Debug\Digimon Project.csproj.CoreCompileInputs.cache
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\obj\Debug\Digimon Project.csproj.CopyComplete
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\obj\Debug\Digimon Project.exe
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\obj\Debug\Digimon Project.pdb

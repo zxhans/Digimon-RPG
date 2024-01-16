@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F64C075A-2BE2-4C0C-8A52-2A3B37998387}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Digimon_Project</RootNamespace>
+    <AssemblyName>Digimon Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database\Base\DbConnection.cs" />
+    <Compile Include="Database\Base\ISelectResult.cs" />
+    <Compile Include="Database\Base\NonQueryData.cs" />
+    <Compile Include="Database\Base\QueryCallback.cs" />
+    <Compile Include="Database\Base\QueryParameters.cs" />
+    <Compile Include="Database\Results\EvolutionCodexResult.cs" />
+    <Compile Include="Database\Results\ConfigResult.cs" />
+    <Compile Include="Database\Results\ReceitaCraftResult.cs" />
+    <Compile Include="Database\Results\RankConfigResult.cs" />
+    <Compile Include="Database\Results\TamerVisualResult.cs" />
+    <Compile Include="Database\Results\DigimonELResult.cs" />
+    <Compile Include="Database\Results\DigimonBaseResult.cs" />
+    <Compile Include="Database\Results\ItemCodexResult.cs" />
+    <Compile Include="Database\Results\ClosedBetaKeysResult.cs" />
+    <Compile Include="Database\Results\QuestsResult.cs" />
+    <Compile Include="Database\Results\LoginResult.cs" />
+    <Compile Include="Database\Results\TeleportsResult.cs" />
+    <Compile Include="Database\Results\SpawnResult.cs" />
+    <Compile Include="Database\Results\SkillResult.cs" />
+    <Compile Include="Database\Results\TamerResult.cs" />
+    <Compile Include="Database\Results\DigimonsResult .cs" />
+    <Compile Include="Database\Results\ItemsResult.cs" />
+    <Compile Include="Database\Results\TamersResult.cs" />
+    <Compile Include="Database\Results\StringValueResult.cs" />
+    <Compile Include="Database\Results\VerificationResult.cs" />
+    <Compile Include="Database\Base\SelectAsyncData.cs" />
+    <Compile Include="Enums\ConnectionType.cs" />
+    <Compile Include="Enums\NPCMap .cs" />
+    <Compile Include="Enums\Constants.cs" />
+    <Compile Include="Enums\EquipSlots.cs" />
+    <Compile Include="Enums\PacketType.cs" />
+    <Compile Include="Enviroment.cs" />
+    <Compile Include="Game\Data\UserInformation.cs" />
+    <Compile Include="Game\Data\Vector2.cs" />
+    <Compile Include="Game\Entities\RankConfig.cs" />
+    <Compile Include="Game\Entities\Skill.cs" />
+    <Compile Include="Game\Entities\Spawn.cs" />
+    <Compile Include="Game\Entities\Digimon.cs" />
+    <Compile Include="Game\Entities\ItemCodex .cs" />
+    <Compile Include="Game\Entities\Quest.cs" />
+    <Compile Include="Game\Entities\Player.cs" />
+    <Compile Include="Game\Entities\Item.cs" />
+    <Compile Include="Game\Object\Entity.cs" />
+    <Compile Include="Game\Entities\Tamer.cs" />
+    <Compile Include="Game\Object\Client.cs" />
+    <Compile Include="Game\Object\Batalha.cs" />
+    <Compile Include="Game\Object\Party.cs" />
+    <Compile Include="Game\Object\AlphaMap.cs" />
+    <Compile Include="Game\Object\Config.cs" />
+    <Compile Include="Game\Object\Trade.cs" />
+    <Compile Include="Game\Object\Teleport.cs" />
+    <Compile Include="Game\Object\ItemMap.cs" />
+    <Compile Include="Game\Object\MapZone.cs" />
+    <Compile Include="Game\Object\NPC.cs" />
+    <Compile Include="Game\Entities\SlotEntity.cs" />
+    <Compile Include="Game\Entities\WorldEntity.cs" />
+    <Compile Include="Handlers.cs" />
+    <Compile Include="Managers\MapConnections.cs" />
+    <Compile Include="Managers\MapManager.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_CHAT_WHISPER.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_CONFIRMA_POS.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_PACKET_TELEPORT_CONFIRM.cs" />
+    <Compile Include="Network\Handlers\Map\Craft\HANDLE_ADVANCE_CREATE.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_DIGIMON_CHANGE_TYPE.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_DIGIMON_EVO_RETURN .cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_DIGIMON_ITEM_CHANGE_NAME.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_EVOLUTION_FANG.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_EVOLUTION_BEASTS.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_EVOLUTION.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_INSERT_DIGIMON_EVO.cs" />
+    <Compile Include="Network\Handlers\Map\Interface\HANDLE_OPEN_SHOPWAREHOUSE .cs" />
+    <Compile Include="Network\Handlers\Map\Itens\HANDLE_USE_ITEM_BOX .cs" />
+    <Compile Include="Network\Handlers\Map\Itens\HANDLE_CARD_COMBINE .cs" />
+    <Compile Include="Network\Handlers\Map\Itens\HANDLE_USE_ITEM_WARP_GATE .cs" />
+    <Compile Include="Network\Handlers\Map\NPC\HANDLE_PACKET_NPC_OMEGAX.cs" />
+    <Compile Include="Network\Handlers\Map\NPC\HANDLE_PACKET_NPC_SKY.cs" />
+    <Compile Include="Network\Handlers\Map\Other Tamer Menu\Party\HANDLE_PARTY_EXIT.cs" />
+    <Compile Include="Network\Handlers\Map\Other Tamer Menu\Party\HANDLE_PARTY_KICK.cs" />
+    <Compile Include="Network\Handlers\Map\Other Tamer Menu\Party\HANDLE_PARTY_CHECK.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_PACKET_CONECT.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_PACKET_CC64.cs" />
+    <Compile Include="Network\Handlers\Map\BATTLE\HANDLE_BATTLE_ACTION.cs" />
+    <Compile Include="Network\Handlers\Map\BATTLE\HANDLE_BATTLE_CARD_SLASH _REMOVE.cs" />
+    <Compile Include="Network\Handlers\Map\BATTLE\HANDLE_BATTLE_CARD_SLASH.cs" />
+    <Compile Include="Network\Handlers\Map\BATTLE\HANDLE_BATTLE_CHECK.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_CHAT_SHOUT.cs" />
+    <Compile Include="Network\Handlers\Map\Itens\HANDLE_DELETE_CARD.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_DIGIMON_INCR_SKILL.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_DIGIMON_ATT.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_DIGIMON_LIDER.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_DIGIMON_INDIVIDUAL.cs" />
+    <Compile Include="Network\Handlers\Map\Interface\HANDLE_CHAT.cs" />
+    <Compile Include="Network\Handlers\Map\BATTLE\HANDLE_BATTLE_EVO_LIST.cs" />
+    <Compile Include="Network\Handlers\Map\Itens\HANDLE_GET_CARD.cs" />
+    <Compile Include="Network\Handlers\Map\Itens\HANDLE_GET_ITEM.cs" />
+    <Compile Include="Network\Handlers\Map\Other Tamer Menu\Party\HANDLE_PARTY_INVITY.cs" />
+    <Compile Include="Network\Handlers\Map\Other Tamer Menu\Trade\HANDLE_TRADE.cs" />
+    <Compile Include="Network\Handlers\Map\Other Tamer Menu\Trade\HANDLE_TRADE_REQUEST.cs" />
+    <Compile Include="Network\Handlers\Map\Outros\HANDLE_PACKET_04CC.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_DIGIMON_INCR_ATRIBUTE.cs" />
+    <Compile Include="Network\Handlers\Map\Interface\HANDLE_CHECK_TRADEPASS.cs" />
+    <Compile Include="Network\Handlers\Map\Outros\HANDLE_PACKET_CC55.cs" />
+    <Compile Include="Network\Handlers\Map\Itens\HANDLE_DELETE_ITEM.cs" />
+    <Compile Include="Network\Handlers\Map\Itens\HANDLE_HATCH_PET.cs" />
+    <Compile Include="Network\Handlers\Map\NPC\HANDLE_PACKET_NPC_STATUS_RESET.cs" />
+    <Compile Include="Network\Handlers\Map\NPC\HANDLE_PACKET_NPC_DIGIMON.cs" />
+    <Compile Include="Network\Handlers\Map\NPC\HANDLE_PACKET_NPC_CARD_SHOP.cs" />
+    <Compile Include="Network\Handlers\Map\NPC\HANDLE_PACKET_NPC_CARD_SHOP_OP.cs" />
+    <Compile Include="Network\Handlers\Map\NPC\HANDLE_PACKET_NPC_ITEM_SHOP_OP.cs" />
+    <Compile Include="Network\Handlers\Map\NPC\HANDLE_PACKET_NPC_ITEM_SHOP.cs" />
+    <Compile Include="Network\Handlers\Map\Itens\HANDLE_USE_ITEM_TP_MINIMAP.cs" />
+    <Compile Include="Network\Handlers\Map\Itens\HANDLE_USE_ITEM_DIGIMON.cs" />
+    <Compile Include="Network\Handlers\Map\Interface\HANDLE_SHOPWAREHOUSE_OP.cs" />
+    <Compile Include="Network\Handlers\Map\Interface\HANDLE_PACKET_QUIT.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_DIGIMON_NAME.cs" />
+    <Compile Include="Network\Handlers\Map\Outros\HANDLE_PACKET_CCC4.cs" />
+    <Compile Include="Network\Handlers\Map\Digimons\HANDLE_PACKET_D_INFO.cs" />
+    <Compile Include="Network\Handlers\Map\BATTLE\HANDLE_PACKET_JOINED_BATTLE.cs" />
+    <Compile Include="Network\Handlers\Map\BATTLE\HANDLE_PACKET_START_BATTLE.cs" />
+    <Compile Include="Network\Handlers\Map\NPC\HANDLE_PACKET_NPC .cs" />
+    <Compile Include="Network\Handlers\Map\Other Tamer Menu\PvP\HANDLE_PVP_DESAFIO.cs" />
+    <Compile Include="Network\Handlers\Map\Craft\HANDLE_BASIC_CREATE.cs" />
+    <Compile Include="Network\Handlers\Map\Warehouse\HANDLE_DIGISTORE_EXPANSION.cs" />
+    <Compile Include="Network\Handlers\Map\Warehouse\HANDLE_DIGISTORE.cs" />
+    <Compile Include="Network\Handlers\Map\Warehouse\HANDLE_WAREHOUSE_BITS.cs" />
+    <Compile Include="Network\Handlers\Map\Warehouse\HANDLE_WAREHOUSE_ITENS.cs" />
+    <Compile Include="Network\Handlers\Map\Outros\HANDLE_PACKET_FFCC .cs" />
+    <Compile Include="Network\Handlers\Map\Outros\HANDLE_PACKET_18CC .cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_CAPTURA.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_RECALL.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_FUGA.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_DIGIEVOLUTION.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_START.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_ACTION.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_XP.cs" />
+    <Compile Include="Network\Packets\Map\Craft\PACKET_ADVANCED_CREATE.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_DIGIMON_CHANGETYPE.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_DIGIMON_EVO_RETURN.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_EVOLUTION_FANG.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_EVOLUTION_BEASTS.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_EVOLUTION.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_INSERT_DIGMON_EVO.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_BIT_ATT.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_CHAT_GM.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_CHAT_SPEAKER.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_CHAT_WHISPER.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_SHOPWAREHOUSE_OP.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_OPEN_SHOPWAREHOUSE.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_PET_ATT.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_HATCH_PET.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_USE_ITEM_BOX.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_CARD_COMBINE.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_USE_ITEM_WARP_GATE.cs" />
+    <Compile Include="Network\Packets\Map\NPC\PACKET_NPC_OMEGAX.cs" />
+    <Compile Include="Network\Packets\Map\NPC\PACKET_NPC_OMEGAX_TRADE.cs" />
+    <Compile Include="Network\Packets\Map\NPC\PACKET_NPC_SKY.cs" />
+    <Compile Include="Network\Packets\Map\Other Tamer Menu\Party\PACKET_PARTY_EXIT.cs" />
+    <Compile Include="Network\Packets\Map\Other Tamer Menu\Party\PACKET_PARTY_KICK.cs" />
+    <Compile Include="Network\Packets\Map\Other Tamer Menu\Party\PACKET_PARTY_CHECK.cs" />
+    <Compile Include="Network\Packets\Map\Other Tamer Menu\Party\PACKET_PARTY_LIST.cs" />
+    <Compile Include="Network\Packets\Map\Other Tamer Menu\PvP\PACKET_PVP_CONFIRM.cs" />
+    <Compile Include="Network\Packets\Map\Other Tamer Menu\Party\PACKET_PARTY_INVITY.cs" />
+    <Compile Include="Network\Packets\Map\Other Tamer Menu\Trade\PACKET_TRADE.cs" />
+    <Compile Include="Network\Packets\Map\Other Tamer Menu\Trade\PACKET_TRADE_REQUEST.cs" />
+    <Compile Include="Network\Packets\Map\Other Tamer Menu\PvP\PACKET_PVP_START.cs" />
+    <Compile Include="Network\Packets\Map\Outros\PACKET_CCC4.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_TP.cs" />
+    <Compile Include="Network\Packets\Map\Outros\PACKET_CC68.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_EXECUTE_ACTION.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_RESULT.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_LVLUP.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_EVO_LIST.cs" />
+    <Compile Include="Network\Packets\Map\Outros\PACKET_CC55.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_DELETE_CARD.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_DELETE_ITEM.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_CHECK_TRADE_PASS.cs" />
+    <Compile Include="Network\Packets\Map\NPC\PACKET_NPC_RESET_STATUS.cs" />
+    <Compile Include="Network\Packets\Map\NPC\PACKET_NPC_DIGIMON.cs" />
+    <Compile Include="Network\Packets\Map\Other Tamer Menu\PvP\PACKET_PVP_DESAFIO.cs" />
+    <Compile Include="Network\Packets\Map\Craft\PACKET_BASIC_CREATE.cs" />
+    <Compile Include="Network\Packets\Map\Warehouse\PACKET_DIGISTORE_EXPANSION.cs" />
+    <Compile Include="Network\Packets\Map\Warehouse\PACKET_DIGISTORE.cs" />
+    <Compile Include="Network\Packets\Map\Warehouse\PACKET_DIGISTORE_LIST.cs" />
+    <Compile Include="Network\Packets\Map\Warehouse\PACKET_WAREHOUSE_BITS.cs" />
+    <Compile Include="Network\Packets\Map\Warehouse\PACKET_WAREHOUSE_ITENS.cs" />
+    <Compile Include="Network\Packets\Map\Outros\PACKET_TESTE.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_TAMER_XP.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_DIGIMON_ATT.cs" />
+    <Compile Include="Network\Packets\Map\NPC\PACKET_NPC_ITEM_SHOP_WRITER.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_USE_ITEM_TP_MINIMAP.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_USE_ITEM_DIGIMON.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_CARD_ATT.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_DIGIMON_INCR_SKILL.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_DIGIMON_INCR_ATRIBUTE.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_CHAT_SHOUT.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_DIGIMON_CATCHED_LOPEN.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_DIGIMON_LIDER.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_CHAT_SYSTEM.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_GET_CARD.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_CARD_DROP.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_TAMER_DIGIMON_WRITER.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_TELEPORT.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_GAIN_ITEM_INFO.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_GET_ITEM.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_ITEM_WRITER.cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_ITEM_DROP.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_DIGIMON_WRITER.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_D_INFO.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_QUIT.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_DIGIMON_INDIVIDUAL.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_CENARY.cs" />
+    <Compile Include="Network\Packets\Map\BATTLE\PACKET_BATTLE_CHECK.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_DIGIMON_NAME.cs" />
+    <Compile Include="Network\Packets\Map\Digimons\PACKET_SPAWN .cs" />
+    <Compile Include="Network\Packets\Map\Outros\PACKET_CC09 .cs" />
+    <Compile Include="Network\Packets\Map\Itens\PACKET_INVENTARIO_ATT .cs" />
+    <Compile Include="Network\Packets\NPCs\Baba Land\NPC_BABALAND_CARD_SHOP.cs" />
+    <Compile Include="Network\Packets\NPCs\Geko Swamp\NPC_GEKOSWAMP_CARD_SHOP.cs" />
+    <Compile Include="Network\Packets\NPCs\Baba Land\NPC_BABALAND_ITEM_SHOP.cs" />
+    <Compile Include="Network\Packets\NPCs\Happy Park\NPC_HAPPYPRK_PRINCEMAMON.cs" />
+    <Compile Include="Network\Packets\NPCs\Time Vlg\NPC_TIMEVLG_CARD_SHOP.cs" />
+    <Compile Include="Network\Packets\NPCs\Mud Village\NPC_MUDVILLAGE_CARD_SHOP.cs" />
+    <Compile Include="Network\Packets\NPCs\Happy Park\NPC_HAPPYPRK_CARD_SHOP.cs" />
+    <Compile Include="Network\Packets\NPCs\Geko Swamp\NPC_GEKOSWAMP_ITEM_SHOP.cs" />
+    <Compile Include="Network\Packets\NPCs\Time Vlg\NPC_TIMEVLG_ITEM_SHOP.cs" />
+    <Compile Include="Network\Packets\NPCs\Mud Village\NPC_MUDVILLAGE_ITEM_SHOP.cs" />
+    <Compile Include="Network\Packets\NPCs\NPCAttribute.cs" />
+    <Compile Include="Network\Packets\NPCs\Happy Park\NPC_HAPPYPRK_ITEM_SHOP.cs" />
+    <Compile Include="Network\Packets\NPCs\Digital City\NPC_KATE.cs" />
+    <Compile Include="Network\Packets\NPCs\Toy Town\NPC_TOY_TOWN_MOTIMON.cs" />
+    <Compile Include="Network\Packets\NPCs\Toy Town\NPC_TOY_TOWN_YOKOMON.cs" />
+    <Compile Include="Network\Packets\NPCs\Toy Town\NPC_TOY_TOWN_TSUNOMON.cs" />
+    <Compile Include="Network\Packets\NPCs\Toy Town\NPC_TOY_TOWN_ELECMON.cs" />
+    <Compile Include="Network\Packets\NPCs\Toy Town\NPC_TOY_TOWN_YUKIMIMON .cs" />
+    <Compile Include="Network\Packets\NPCs\Toy Town\NPC_TOY_TOWN_PATAMON.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_CHAT .cs" />
+    <Compile Include="Network\Packets\Tamers\PACKET_CONECT.cs" />
+    <Compile Include="Network\Packets\Tamers\PACKET_NEW_TRADE_PASS.cs" />
+    <Compile Include="Network\Packets\NPCs\NPCATable.cs" />
+    <Compile Include="Utils\Http.cs" />
+    <Compile Include="Utils\PacketString.cs" />
+    <Compile Include="Utils\Randomizer.cs" />
+    <Compile Include="Utils\StringHex.cs" />
+    <Compile Include="Utils\Comandos.cs" />
+    <Compile Include="Utils\Skill.cs" />
+    <Compile Include="Utils\TimerPlus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utils\Email.cs" />
+    <Compile Include="Utils\MakeKeys.cs" />
+    <Compile Include="Utils\XP.cs" />
+    <Compile Include="Network\Base\Connection.cs" />
+    <Compile Include="Network\Base\EventArgs.cs" />
+    <Compile Include="Network\Base\Handler.cs" />
+    <Compile Include="Network\Handlers\Others\HANDLE_PACKET_JOIN.cs" />
+    <Compile Include="Network\Handlers\Map\Interface\HANDLE_MAP_CONNECT.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_PACKET_DELETE_TAMER.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_PACKET_CREATE_TAMER.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_PACKET_CHANGE_TRADE_PASS.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_PACKET_MAP_LOGIN.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_PACKET_CHECK_CONNECTION.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_LOGIN_TAMERLIST.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_PACKET_TAMER_LIST.cs" />
+    <Compile Include="Network\Handlers\Login\HANDLE_PACKET_972.cs" />
+    <Compile Include="Network\Handlers\Map\Interface\HANDLE_MOVEMENT.cs" />
+    <Compile Include="Network\Base\IHandler.cs" />
+    <Compile Include="Network\Listeners\AbstractUDPListener.cs" />
+    <Compile Include="Network\Listeners\MapListener.cs" />
+    <Compile Include="Network\Base\PacketHandlerAttribute.cs" />
+    <Compile Include="Network\Base\InPacket.cs" />
+    <Compile Include="Network\Base\ISocketSession.cs" />
+    <Compile Include="Network\Listeners\AbstractTCPListener.cs" />
+    <Compile Include="Network\Listeners\LoginListener.cs" />
+    <Compile Include="Network\Base\OutPacket.cs" />
+    <Compile Include="Network\Base\Packet.cs" />
+    <Compile Include="Emulator.cs">
+      <CustomToolNamespace>E</CustomToolNamespace>
+    </Compile>
+    <Compile Include="Network\Packets\Map\Itens\PACKET_INVENTARIO.cs" />
+    <Compile Include="Network\Packets\Map\Interface\PACKET_MAP_TAMER_AND_DIGIMONS.cs" />
+    <Compile Include="Network\Packets\Tamers\PACKET_DELETE_TAMER.cs" />
+    <Compile Include="Network\Packets\Tamers\PACKET_CREATE_TAMER.cs" />
+    <Compile Include="Network\Packets\Tamers\PACKET_TAMER_LIST.cs" />
+    <Compile Include="Network\Packets\Tamers\PACKET_CHECK_CONNECTION.cs" />
+    <Compile Include="Network\Packets\Tamers\LOGIN_TAMERLIST.cs" />
+    <Compile Include="Network\Packets\PACKET_972.cs" />
+    <Compile Include="Network\Base\PacketTable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Dump.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\bin\Release\Digimon Project.exe.config
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\bin\Release\Digimon Project.exe
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\bin\Release\Digimon Project.pdb
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\obj\Release\Digimon Project.csproj.AssemblyReference.cache
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\obj\Release\Digimon Project.csproj.CoreCompileInputs.cache
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\obj\Release\Digimon Project.csproj.CopyComplete
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\obj\Release\Digimon Project.exe
+C:\Users\Techno\Downloads\DDB RPG Source\Digimon RPG\Digimon\obj\Release\Digimon Project.pdb
